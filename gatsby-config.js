@@ -3,6 +3,16 @@ module.exports = {
     title: `Barigamb`,
     description: `The official website of the Game Developer Barigamb.`,
     author: `@barigambdev`,
+      menuLinks:[
+            {
+               name:'home',
+               link:'/'
+            },
+            {
+               name:'page2',
+               link:'/page-2'
+            }
+          ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
